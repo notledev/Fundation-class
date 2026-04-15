@@ -1,3 +1,4 @@
+'''
 name = input("Informe o nome \n")
 idade = int(input("Informe a idade \n"))
 altura = float(input("Informe a altura \n"))
@@ -26,3 +27,14 @@ print("O nome é:", name, "\n Idade é: ", idade, "\n altura é: ", altura, "\n 
 print( f"Nome é {name} \n"
        f"Idade é: {idade}\n"
        f"Altura é: {altura}\n")
+
+'''
+
+# Pratica do Fstring
+
+nome = (input("Informe nome: \n"))
+idade = int(input("Informe idade:\n")) 
+
+print(f"O nome é:{nome} \n"
+      f"A idade é: {idade}\n"
+      )
